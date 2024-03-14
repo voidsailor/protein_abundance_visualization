@@ -4,7 +4,7 @@ This repository contains code for the manuscript named above.
 
 ## 1) Correlation Plot
 
-[R code](https://github.com/voidsailor/protein_abundance_visualization/correlation_plot_human_1000) for the correlation plots.
+[R code](https://github.com/voidsailor/protein_abundance_visualization/correlation_plot_human_1000.R) for the correlation plots.
 
 ## 2) Interactive visualization
 
