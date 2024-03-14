@@ -4,37 +4,37 @@ This repository contains code for the manuscript named above.
 
 ## 1) Correlation Plot
 
-[R code](https://github.com/voidsailor/protein_abundance_visualization/correlation_plot_human_1000.R) for the correlation plots.
+[R code](https://github.com/voidsailor/protein_abundance_visualization/blob/main/correlation_plot_human_1000.R) for the correlation plots.
 
 ## 2) Interactive visualization
 
-An [interactive visualization](https://github.com/voidsailor/protein_abundance_visualization/human_mouse_105_copy_number_plot.html) of the copy number abundances for mouse and human neutrophils were created using Python 3.9, pandas and bokeh for improved exploration of the abundance data. You can download and open the html file containing the visualization dashboard in any modern webbrowser.
+An [interactive visualization](https://github.com/voidsailor/protein_abundance_visualization/blob/main/human_mouse_105_copy_number_plot.html) of the copy number abundances for mouse and human neutrophils was created using Python 3.9, pandas and bokeh for improved exploration of the abundance data. You can download and open the html file containing the visualization dashboard in any modern web browser.
 
 ### 2.1) Visualization dashboard manual
 
-The visualization dashboard contains a searchable data table with [original data](https://github.com/voidsailor/protein_abundance_visualization/copy_number_distribution_human_mouse_105.xlsx) from the publication and an interactive plot of protein abundance over protein rank for human and mouse neutrophils.
+The visualization dashboard contains a searchable data table with [original data](https://github.com/voidsailor/protein_abundance_visualization/blob/main/copy_number_distribution_human_mouse_105.xlsx) from the publication and an interactive plot of protein abundance over protein rank for human and mouse neutrophils.
 
 #### Searching
 
-To filter the data table for entries of interest type a search term into the search field (e.g., "CXCR2" to filter for C-X-C chemokine receptor type 2) and hit the ENTER key. The search uses strict string matching, so please consider that it does not tolerate typos. "Unfilter" the data table by deleting your search string and hitting ENTER.
+To filter the data table for entries of interest type a search term into the search field (e.g., "CXCR2" to filter for C-X-C chemokine receptor type 2) and hit the ENTER key. The search uses strict string matching, so it does not tolerate typos. "Unfilter" the data table by deleting your search string and hitting ENTER.
 
 #### Total number of proteins, filtered proteins, selected proteins
 
-Displayed below the search field are the total number of proteins in the dataset, the number of filtered proteins currently displayed in the table (depends whether the data were filtered by a search, e.g., 2 for "CXCR2"), and the number of selected data points.
+Below the search field are the total number of proteins in the dataset, the number of filtered proteins currently displayed in the table (depending on whether the data were filtered by a search, e.g., 2 for "CXCR2"), and the number of selected data points.
 
 #### Interactive data table
 
-Below these three metrics is the data table. Select datapoints by clicking on table rows. You can multi-select specific entries by holding CTRL and clicking individual entries, or multi-select a range of entries by holding SHIFT and clicking the first and last entry in that range (much like multi-selecting in Excel). Deselect by clicking on a selected entry. Selected entries are highlighted in the plot on the right side.
+Below these three metrics is the data table. Select data points by clicking on table rows. You can multi-select specific entries by holding CTRL and clicking individual entries, or multi-select a range of entries by holding SHIFT and clicking the first and last entry in that range (much like multi-selecting in Excel). Deselect by clicking on a selected entry. Selected entries are highlighted in the plot on the right side.
 
 #### Interactive plot
 
-You can select datapoints in the interactive plot by directly clicking into the plot (multi-select using SHIFT and clicking is also possible). On the right of the plot you can find a tool column that provides different interaction modes. Active tools are highlighted by a blue bar. The PAN tool allows to pan the figure, BOX SELECT allows to select multiple datapoints by dragging and dropping a selection box, WHEEL ZOOM activates zooming with the mouse wheel, RESET resets the figure into it's initial state, SAVE downloads the figure as .png file, and HOVER displays the information of a datapoint when hovering over a datapoint.
+You can select data points in the interactive plot by directly clicking into the plot (multi-select using SHIFT and clicking is also possible). On the right of the plot, you can find a tool column that provides different interaction modes. Active tools are highlighted by a blue bar. The PAN tool allows to pan the figure, BOX SELECT allows the selection of multiple data points by dragging and dropping a selection box, WHEEL ZOOM activates zooming with the mouse wheel, RESET resets the figure into its initial state, SAVE downloads the figure as .png file, and HOVER displays the information of a datapoint when hovering over a data point.
 
 ### 2.2) Running the code to generate the visualization dashboard
 
 #### Input data
 
-You can generate the interactive visualization dashboard for your own protein abundance data. Take a look at the [original data table](https://github.com/voidsailor/protein_abundance_visualization/copy_number_distribution_human_mouse_105.xlsx) for an example data set.
+You can generate the interactive visualization dashboard for your protein abundance data. Take a look at the [original data table](https://github.com/voidsailor/protein_abundance_visualization/blob/main/copy_number_distribution_human_mouse_105.xlsx) for an example data set.
 
 - provide the data in .xlsx spreadsheet format
 - data for individual species, groups, or samples should be on separate sheets (e.g., human data on sheet one, mouse data on sheet two)
