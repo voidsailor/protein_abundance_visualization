@@ -30,7 +30,7 @@ Below these three metrics is the data table. Select data points by clicking on t
 
 #### Interactive plot
 
-You can select data points in the interactive plot by directly clicking into the plot (multi-select using SHIFT and clicking is also possible). On the right of the plot, you can find a tool column that provides different interaction modes. Active tools are highlighted by a blue bar. The PAN tool allows to pan the figure, BOX SELECT allows the selection of multiple data points by dragging and dropping a selection box, WHEEL ZOOM activates zooming with the mouse wheel, RESET resets the figure into its initial state, SAVE downloads the figure as .png file, and HOVER displays the information of a datapoint when hovering over a data point.
+You can select data points in the interactive plot by directly clicking into the plot (multi-select using SHIFT and clicking is also possible). On the right of the plot, you can find a tool column that provides different interaction modes. Active tools are highlighted by a blue bar. The PAN tool allows to pan the figure, BOX SELECT allows the selection of multiple data points by dragging and dropping a selection box, WHEEL ZOOM activates zooming with the mouse wheel, TAP toggles whether data points should be selectable, RESET resets the figure into its initial state, SAVE downloads the figure as .png file, and HOVER displays the information of a datapoint when hovering over a data point.
 
 ### 2.2) Running the code to generate the visualization dashboard
 
